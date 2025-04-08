@@ -1,0 +1,41 @@
+.app-sidebar {
+  background-color: #AAB99A !important; /* Forces your color */
+}
+
+.app-header.navbar {
+  background-color: 
+  #727D73 !important; /* Custom color */
+  color: white !important; /* Ensures text remains visible */
+}
+/* Ensure all nav links and dropdown items are white */
+.app-header.navbar .nav-link,
+.app-header.navbar .dropdown-menu,
+.app-header.navbar .dropdown-item {
+    color: white !important;
+}
+
+/* Make all nav-item text white */
+.app-sidebar .nav-item a {
+  color: white !important;
+}
+
+/* Ensure icons inside nav-links are also white */
+.app-sidebar .nav-item .nav-icon {
+  color: white !important;
+}
+
+/* Ensure nav-item hover effect remains white */
+.app-sidebar .nav-item a:hover {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.1) !important; /* Optional: slight hover effect */
+}
+
+.sidebar-brand {
+  border-bottom: none !important;
+}
+
+/* Ensure no HR line appears */
+.sidebar-brand hr {
+  display: none !important;
+  border: none !important;
+}

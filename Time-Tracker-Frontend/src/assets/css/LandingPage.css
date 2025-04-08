@@ -1,0 +1,357 @@
+/* Ensure styles apply only to the Landing Page */
+.landing_page {
+    background-color: #D0DDD0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; 
+}
+
+
+.header_section {
+    width: 100vw;
+    background-color: #D0DDD0;
+    padding: 15px 0;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    background-color: #D0DDD0;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Spacing for Login & Signup Buttons */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+/* Left side: Logo & Title */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.navbar-logo {
+    height: 64px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Title */
+.navbar-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #5A6E58;
+}
+
+/* Landing Page Buttons */
+.btn-landing {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color: #5A6E58;
+    color: #fff;
+    border: 1px solid #5A6E58;
+}
+
+.btn-landing:hover {
+    background-color: #fff;
+    color: #5A6E58;
+}
+
+/* Full Page Layout Fix */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* Hero Section */
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 100px 20px;
+    background-color: #D0DDD0;
+}
+
+/* Hero Container */
+.hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Hero Content */
+.hero_content {
+    flex: 1;
+    text-align: left;
+}
+
+.hero_content h1 {
+    font-size: 40px;
+    color: #5A6E58;
+}
+
+.hero_content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Hero Image */
+.hero_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_image img {
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 50px 20px;
+    background-color: #D0DDD0;
+}
+
+/* About Container */
+.about_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* About Image */
+.about_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about_image img {
+    width: 80%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Content */
+.about_content {
+    flex: 1;
+    text-align: left;
+}
+
+.about_content h2 {
+    font-size: 30px;
+    color: #5A6E58;
+}
+
+/* Fix Background Color for Login & Signup Pages */
+.login-page, .signup-page {
+    background-color: #fff !important;
+}
+
+/* Accordion FAQ Styles */
+.faq_section {
+    background-color: #D0DDD0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .faq_container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .faq_title {
+    font-size: 30px;
+    color: #5A6E58;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .faq_item {
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .faq_question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq_question h4 {
+    margin: 0;
+    color: #5A6E58;
+    font-size: 18px;
+  }
+  
+  .faq_icon {
+    font-size: 22px;
+    color: #5A6E58;
+    font-weight: bold;
+  }
+  
+  .faq_answer_wrapper {
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+  
+  .faq_answer {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px;
+    padding-right: 10px;
+  }
+
+  /*feature section */
+  .feature_section {
+    background-color: #D0DDD0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .feature_title {
+    font-size: 30px;
+    color: #5A6E58;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .feature_container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .feature_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .feature_block.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .feature_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+  }
+  
+  .feature_text {
+    flex: 1;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  
+  .feature_text h3 {
+    font-size: 28px;
+    color: #5A6E58;
+    margin-bottom: 10px;
+  }
+  
+  .feature_text p {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .feature_image img {
+    width: 100%;
+    height: auto; 
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+/* Footer Section */
+.footer_section {
+  background-color: #AAB99A;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer_container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.social_icons {
+  margin-top: 10px;
+}
+
+.social_icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social_icons a:hover {
+  color: #5A6E58; 
+}
+
+img {
+  width: 100%;
+  max-width: 450px;
+  height: 300px; 
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect on all images */
+img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
