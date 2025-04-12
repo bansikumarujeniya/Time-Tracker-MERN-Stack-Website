@@ -52,7 +52,7 @@ const LandingPage = () => {
               <Link to="/login" className="btn-landing">
                 Login
               </Link>
-              <Link to="/signup" className="btn-landing">
+              <Link to="/register" className="btn-landing">
                 Signup
               </Link>
             </div>
